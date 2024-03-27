@@ -5,13 +5,15 @@
 <script>
 import HomePage from './views/pages/CustomHome.vue';
 import Pricing from './views/pages/pricing.vue';
+import commingsoon from './views/pages/commingsoon.vue';
 import Login from './views/Auth/Login.vue';
 export default {
   name: "App",
   components: {
     HomePage,
     Pricing,
-    Login
+    Login,
+    commingsoon
   },
   methods: {
     getComponentName(routeName) {
@@ -19,7 +21,8 @@ export default {
       const routeToComponent = {
         home: 'HomePage',
         pricing: 'Pricing',
-        signin: 'Login'
+        signin: 'Login',
+        commingsoon: 'commingsoon'
       };
       // Return component name based on route name
       return routeToComponent[routeName] || '';

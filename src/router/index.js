@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import Pricing from '../views/pages/pricing.vue';
+import commingsoon from '../views/pages/commingsoon.vue';
 import Login from '../views/Auth/Login.vue';
 
 const router = createRouter({
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/sign-in',
       name: 'signin',
       component: Login
+    },
+    {
+      path: '/commingSoon',
+      name: 'commingsoon',
+      component: commingsoon
     }
   ]
 })

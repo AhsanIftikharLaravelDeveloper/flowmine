@@ -6,12 +6,12 @@
         <div class="grid grid-cols-2 md:flex w-full md:w-max gap-0 md:gap-10">
             <router-link to="/pricing" activeClass="pricing"
                 class="text-custom-gray tracking-widest leading-7 text-xs font-bold hover:text-[#FC6F43]">PRICING</router-link>
-            <a href="javascript:void(0);"
-                class="text-custom-gray tracking-widest leading-7 font-bold text-xs">ABOUT</a>
-            <a href="javascript:void(0);"
-                class="text-custom-gray tracking-widest leading-7 font-bold text-xs">CONTACT</a>
-            <a href="javascript:void(0);"
-                class="text-custom-gray tracking-widest leading-7 font-bold text-xs">PRIVACY</a>
+            <router-link to="/commingSoon" activeClass="commingsoon"
+                class="text-custom-gray tracking-widest leading-7 font-bold text-xs">ABOUT</router-link>
+            <router-link to="/commingSoon" activeClass="commingsoon"
+                class="text-custom-gray tracking-widest leading-7 font-bold text-xs">CONTACT</router-link>
+            <router-link to="/commingSoon" activeClass="commingsoon"
+                class="text-custom-gray tracking-widest leading-7 font-bold text-xs">PRIVACY</router-link>
         </div>
     </footer>
 </template>
