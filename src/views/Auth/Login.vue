@@ -45,9 +45,9 @@ export default {
                         </defs>
                     </svg>
                     <!-- show icon -->
-                    <svg width="24" @click="togglePasswordVisibility" :class="{ 'block': showPassword, 'hidden': !showPassword }" class="absolute right-0 top-1 mt-9 mr-3" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2.0355 12.3224C1.96642 12.1151 1.96635 11.8907 2.03531 11.6834C3.42368 7.50972 7.36074 4.5 12.0008 4.5C16.6386 4.5 20.5742 7.50692 21.9643 11.6776C22.0334 11.8849 22.0334 12.1093 21.9645 12.3166C20.5761 16.4903 16.639 19.5 11.999 19.5C7.36115 19.5 3.42559 16.4931 2.0355 12.3224Z" stroke="#0F172A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M15 12C15 13.6569 13.6568 15 12 15C10.3431 15 8.99995 13.6569 8.99995 12C8.99995 10.3431 10.3431 9 12 9C13.6568 9 15 10.3431 15 12Z" stroke="#0F172A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <svg @click="togglePasswordVisibility" :class="{ 'block': showPassword, 'hidden': !showPassword }" class="absolute right-0 top-1 mt-9 mr-3" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.69629 10.2687C1.63872 10.0959 1.63867 9.90895 1.69614 9.73619C2.85311 6.2581 6.13399 3.75 10.0007 3.75C13.8656 3.75 17.1452 6.25577 18.3036 9.73134C18.3612 9.90406 18.3612 10.0911 18.3038 10.2638C17.1468 13.7419 13.8659 16.25 9.99922 16.25C6.13433 16.25 2.8547 13.7442 1.69629 10.2687Z" stroke="#0F172A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.5 10C12.5 11.3807 11.3807 12.5 10 12.5C8.61929 12.5 7.5 11.3807 7.5 10C7.5 8.61929 8.61929 7.5 10 7.5C11.3807 7.5 12.5 8.61929 12.5 10Z" stroke="#0F172A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
             </div>
