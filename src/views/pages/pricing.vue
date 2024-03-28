@@ -109,19 +109,16 @@
     </div>
     <!-- Pricing Page End -->
     <footerNav />
-    <scrollToTop />
 </template>
 <script>
 import navbar from '../../components/layouts/navbar.vue';
 import footerNav from '../../components/layouts/footer.vue';
-import scrollToTop from '../../components/layouts/gototopScroller.vue';
 
 export default {
     name:'pricing',
     components: {
         navbar,
         footerNav,
-        scrollToTop
     },
     data() {
         return {
